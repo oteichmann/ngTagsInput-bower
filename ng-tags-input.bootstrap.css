@@ -70,6 +70,10 @@ tags-input .disabled .tags {
 tags-input .disabled .tags .tag-item {
   opacity: 0.65;
 }
+tags-input .disabled .tags .input[disabled] {
+  background-color: #EEE;
+  cursor: not-allowed;
+}
 
 .input-group tags-input {
   padding: 0;
